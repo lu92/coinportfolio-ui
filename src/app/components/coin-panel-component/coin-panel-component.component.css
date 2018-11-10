@@ -1,0 +1,48 @@
+.container {
+  border-color: #88898A;
+  background-color: #393D41;
+}
+
+.coin-name {
+  color: #88898A;
+  font-size: 32px;
+  text-align: center;
+}
+
+.investment-details {
+  width: 200px;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.balance-details {
+  justify-content: space-evenly;
+  display: flex;
+  width: 250px;
+}
+
+.center-body {
+  display: flex;
+  justify-content: center;
+}
+
+.label {
+  color: #88898A;
+  font-size: 8px;
+  text-align: center;
+}
+
+.value {
+  color: #88898A;
+  font-size: 20px;
+  text-align: center;
+}
+
+.green {
+  color: #44BBA4 !important;
+}
+
+.section {
+  padding: 8px 0 8px 0;
+}
+

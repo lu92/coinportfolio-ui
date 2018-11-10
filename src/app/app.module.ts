@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
+import {CoinPanelComponentComponent} from './components/coin-panel-component/coin-panel-component.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CoinPanelComponentComponent
   ],
   imports: [
     BrowserModule,
