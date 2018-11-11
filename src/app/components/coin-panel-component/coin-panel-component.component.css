@@ -1,6 +1,6 @@
-.container {
-  border-color: #88898A;
-  background-color: #393D41;
+.coin-panel-container {
+  background-color: #44494D;
+  border: 1px solid #393D41;
 }
 
 .coin-name {
@@ -34,7 +34,7 @@
 
 .value {
   color: #88898A;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
 }
 
