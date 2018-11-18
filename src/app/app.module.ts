@@ -1,18 +1,18 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
 
 
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import {CoinPanelComponentComponent} from './components/coin-panel-component/coin-panel-component.component';
-import {CoinListComponentComponent} from './components/coin-list-component/coin-list-component.component';
+import {LandingPageComponentComponent} from './components/landing-page-component/landing-page-component.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CoinPanelComponentComponent,
-    CoinListComponentComponent
+    LandingPageComponentComponent
   ],
   imports: [
     BrowserModule,
@@ -21,4 +21,5 @@ import {CoinListComponentComponent} from './components/coin-list-component/coin-
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
