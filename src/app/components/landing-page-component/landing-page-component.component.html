@@ -22,15 +22,19 @@
 <chart [options]="options"></chart>
 <div class="list-container">
   <div class="row row-no-padding">
-    <app-coin-panel-component class="col-3"></app-coin-panel-component>
-    <app-coin-panel-component class="col-3"></app-coin-panel-component>
-    <app-coin-panel-component class="col-3"></app-coin-panel-component>
-    <app-coin-panel-component class="col-3"></app-coin-panel-component>
+    <app-coin-panel-component [coin]="btc" class="col-3"></app-coin-panel-component>
+    <app-coin-panel-component [coin]="ltc" class="col-3"></app-coin-panel-component>
+    <app-coin-panel-component [coin]="eth" class="col-3"></app-coin-panel-component>
+    <app-coin-panel-component [coin]="xrp" class="col-3"></app-coin-panel-component>
   </div>
   <div class="row row-no-padding">
-    <app-coin-panel-component class="col-3"></app-coin-panel-component>
-    <app-coin-panel-component class="col-3"></app-coin-panel-component>
-    <app-coin-panel-component class="col-3"></app-coin-panel-component>
-    <app-coin-panel-component class="col-3"></app-coin-panel-component>
+    <app-coin-panel-component [coin]="xrm" class="col-3"></app-coin-panel-component>
+    <app-coin-panel-component [coin]="xlm" class="col-3"></app-coin-panel-component>
+    <app-coin-panel-component [coin]="iota" class="col-3"></app-coin-panel-component>
+    <app-coin-panel-component [coin]="bnb" class="col-3"></app-coin-panel-component>
+  </div>
+  <div class="row row-no-padding">
+    <app-coin-panel-component [coin]="vet" class="col-3"></app-coin-panel-component>
+    <app-coin-panel-component [coin]="ada" class="col-3"></app-coin-panel-component>
   </div>
 </div>
